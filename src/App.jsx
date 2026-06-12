@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Planner from './components/Planner/Planner';
 import Anamnese from './components/Anamnese/Anamnese';
+
 // Adicionei calcularDisponibilidadeNeuromuscular aqui
 import { gerarRecomendacao, obterOpcoesDisponiveis, gerarBriefing, calcularDisponibilidadeNeuromuscular } from './utils/logicaApp';
 import './styles/App.css';
